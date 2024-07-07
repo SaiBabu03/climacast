@@ -1,0 +1,32 @@
+name: climacast
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_fonts: 6.1.0
+  loading_animation_widget: ^1.2.1
+  http: ^1.2.0
+  flutter_spinkit: ^5.2.1
+  shared_preferences: ^2.2.3
+  geolocator: ^11.1.0
+  cached_network_image: 3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
